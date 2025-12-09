@@ -8,7 +8,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 export default function App() {
   return (
     <div className="min-h-screen bg-linear-to-br from-gray-100 via-blue-100 to-green-100">
-      <header className="bg-linear-to-r from-green-500 to-pink-500 text-white py-4 shadow-md text-center rounded-b-sm">
+      <header className="text-black py-4 shadow-md text-center rounded-b-sm">
         <div>
           <h1 className="text-3xl font-bold">
             <i className="fa-solid fa-money-bill-1-wave"></i> Income and Expense Tracker
@@ -23,7 +23,7 @@ export default function App() {
         <Link to="/history" className="bg-gray-500 text-white px-4 py-2 rounded hover:bg-gray-600">History</Link>
       </nav>
 
-      <main className="max-w-4xl mx-auto mt-2 p-2">
+      <main className="max-w-4xl mx-auto mt-2">
         <Routes>
           <Route path="/" element={<Dashboard />} />
           <Route path="/add" element={<AddTransaction />} />
