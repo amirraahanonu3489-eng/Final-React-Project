@@ -7,7 +7,7 @@ A React-based income and expense tracker that allows users to manage personal fi
 # Installation & Running Locally
 
 1. Clone the repo
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/amirraahanonu3489-eng/Final-React-Project.git
 
 2. Install dependencies
 npm install
@@ -17,4 +17,5 @@ npm run dev
 
 4. Build for production
 npm run build
+
 
